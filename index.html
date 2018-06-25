@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Testing</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <header>
+      <h1>Welcome to my testing page!</h1>
+      <img src="images/logo.jpg" alt="logo">
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="http://el-mundo-esta-hecho-de-historias.tumblr.com/">Tumblr</a></li>
+        <li><a href="htpps://www.google.com">Google</a></li>
+        <li><a href="htpps://www.twitter.com">Twitter</a></li>
+      </ul>
+    </nav>
+
+    <main class="contenido-principal">
+      <section id="tables" class="seccion">
+
+        <h2>Tables!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Departamento</th>
+              <th>Capital</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Antioquia</td>
+              <td>Medellin</td>
+            </tr>
+            <tr>
+              <td>Cundinamarca</td>
+              <td>Bogota</td>
+            </tr>
+            <tr>
+              <td>Cauca</td>
+              <td>Cali</td>
+            </tr>
+            <tr class="table-end">
+              <td colspan="2">That's it</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="forms" class="seccion">
+        <h2>Forms!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <form class="inputs" action="index.html" method="post">
+          <div>
+            <label for="name">Name</label> <input type="text" name="name" id="surname">
+            <label for="apellido">Surname</label> <input type="text" name="surname" id="surname">
+          </div>
+          <div>
+            <label for="phone">Phone number</label> <input type="text" name="phone" id="phone">
+          </div>
+          <div>
+            <label for="masculino">Masculino</label> <input type="radio" name="genero" id="masculino">
+          </div>
+          <div>
+            <label for="femenino">Femenino</label> <input type="radio" name="genero" id="femenino">
+          </div>
+          <div>
+            <label for="otro">Otro</label> <input type="radio" name="genero" id="otro">
+          </div>
+          <div>
+            <label for="comments">Wirte your comments!</label> <textarea name="comments" rows="5" cols="100"></textarea>
+          </div>
+          <div>
+            <select name="gift">
+              <option value="camisa">Camisa</option>
+              <option value="gorrar">Gorra</option>
+              <option value="lapicero">Lapicero</option>
+            </select>
+          </div>
+          <input type="checkbox"> Acepto recibir informacion <br>
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+    </main>
+
+
+    
+  </div>
+
+
+
+</body>
+</html>
